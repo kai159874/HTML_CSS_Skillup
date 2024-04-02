@@ -167,3 +167,38 @@
   text-align: left;
 }
 
+/*profile*/
+
+.profile {
+  background-color: #ECEFF1;
+}
+
+.profile-container {
+  width: 1024px;
+}
+
+.profile-items-container {
+  display: flex;
+}
+
+.profile-item {
+  width: 512px;
+}
+
+.profile-img {
+  border-radius: 50%;
+}
+
+.profile-content {
+    text-align: left;
+}
+
+.profile-content-head {
+  font-size: 20px;
+  margin-top: 20px
+}
+
+.profile-content-text {
+  font-size: 16px;
+  margin-top: 5px;
+}
