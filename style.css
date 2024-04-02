@@ -202,3 +202,48 @@
   font-size: 16px;
   margin-top: 5px;
 }
+
+/*contact*/
+
+.contact-container {
+  width: 800px;
+}
+
+.contact-content-container {
+  display: flex;
+}
+
+.contact-content {
+  width: 400px;
+  margin-left: 150px;
+  text-align: left;
+}
+
+.contact-content-head {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.contact-address {
+  color: #000000;
+}
+
+.sns-icon {
+  font-size: 50px;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+/*footer*/
+
+.footer {
+  height: 60px;
+  background-color: #EC715F;
+}
+
+.footer-text {
+  font-size: 16px;
+  color: #FAFAFA;
+  text-align: center;
+  line-height: 60px;
+}
