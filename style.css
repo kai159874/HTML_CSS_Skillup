@@ -6,6 +6,8 @@
   box-sizing: border-box;
 }
 
+/*header*/
+
 .header {
   background-color: #EC715F;
   height: 70px;
@@ -34,6 +36,10 @@
   text-decoration: none;
 }
 
+/*main*/
+
+/*main-visual*/
+
 .main-visual {
   background-image: url(img/mv.png);
   height: 650px;
@@ -57,35 +63,43 @@
   margin-top: 10px;
 }
 
-.portfolio {
-  background-color: #ECEFF1;
-}
+/*content*/
 
-.portfolio-container {
-  width: 920px;
-  margin: 0 auto;
-  text-align: center;
-  padding-bottom: 90px;
-}
-
-.portfolio-title {
-  font-size: 32px;
-  color: #000000;
-  padding-top: 90px;
-}
-
-.portfolio-underline {
+.underline {
   margin: 8px auto 0;
   height: 3px;
   width: 70px;
   background-color: #EC715F;
 }
 
-.portfolio-text {
+.article-title {
+  font-size: 32px;
+  color: #000000;
+  padding-top: 90px;
+}
+
+.article-text {
   margin: 30px auto;
   font-size: 16px;
   color: #000000;
 }
+
+.article-container {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 90px;
+}
+
+/*portfolio*/
+
+.portfolio {
+  background-color: #ECEFF1;
+}
+
+.portfolio-container {
+  width: 920px;
+}
+
 
 .portfolio-image-container {
   display: flex;
@@ -121,3 +135,35 @@
 .portfolio-img-6 {
   background-image: url(img/webcamp-mother.png);
 }
+
+/*feature*/
+
+.feature-container {
+  width: 980px;
+}
+
+.feature-items-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-strength {
+  width: 320px;
+}
+
+.feature-strength-icon {
+  font-size: 60px;
+}
+
+.feature-strength-title {
+  font-size: 20px;
+  color: #000000;
+  padding: 10px;
+}
+
+.feature-strength-text {
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+}
+
